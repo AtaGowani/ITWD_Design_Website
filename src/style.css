@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans:300|Raleway:100,200');
+
+body {
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.red {
+  background: #e01f3d;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.headphones {
+  text-align: right;
+  flex: 2;
+  margin-right: 20px;
+}
+
+.content {
+  flex: 1;
+  padding-right: 300px;
+}
+
+.button-div {
+  text-align: center;
+  height: 100px;
+}
+
+.button-div button,
+.button-div button:visited {
+  height: 45px;
+  width: 140px;
+  background: #fff;
+  border-radius: 5%;
+  border: none;
+  color: #e01f3d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.button-div button:hover,
+.button-div button:active,
+.button-div button:focus {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 0;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 15px;
+}
