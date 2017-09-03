@@ -75,9 +75,59 @@ h2 {
   margin-bottom: 30px;
 }
 
-p {
+div.content p {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 20px;
   margin-top: 15px;
 }
+
+@media (max-width: 985px){
+  .content {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .headphones {
+    text-align: center
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .flex {
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .headphones img {
+    width: 300px;
+  }
+}
+/*
+@media (max-width: 570px) {
+  div.red,
+  .headphones {
+    text-align: center;
+  }
+
+  .headphones img {
+    width: 600px;
+  }
+  
+  .flex {
+    flex-flow: column;
+  }
+
+  .content {
+    padding: 10px 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}*/
